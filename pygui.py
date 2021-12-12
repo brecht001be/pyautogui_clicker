@@ -15,7 +15,7 @@ def randomSleep():
 # moves to (1717,352) in 1 sec
 def goToAndClick(coords, duration):
     pyautogui.moveTo(coords[0] + random.randint(0,4), coords[1] + random.randint(0,4), duration)
-    pyautogui.click()
+    pyautogui.click() # another comment added here
  
 while True:
   print("Clicked Advertisement...")
