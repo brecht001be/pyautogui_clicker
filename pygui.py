@@ -9,7 +9,7 @@ advertisement = (2056,873)
 
 def randomSleep():
   delay = random.randint(5,10)
-  print("Sleeping for:", delay, "s ...")
+  print("Sleeping for:", delay, "s ...") # test comment
   sleep(delay)
 
 # moves to (1717,352) in 1 sec
