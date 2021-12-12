@@ -1,7 +1,6 @@
 import random
 from time import sleep
 import pyautogui
-import varname
 
 
 refresh = (2008,57)
